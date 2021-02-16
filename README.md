@@ -74,7 +74,7 @@ echo "/opt/intel/mkl/lib/intel64" >> /etc/ld.so.conf.d/mkl.conf
 ldconfig
 ```
 
-### Set An Environment Variable
+### Set an Environment Variable
 
 As discussed in [issue ticket #2](https://github.com/eddelbuettel/mkl4deb/issues/2),
 mixing Intel OpenMP and GNU OpenMP run-times in one application can lead to issues. 
